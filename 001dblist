@@ -15,7 +15,7 @@ data/ant
 data/anu
 data/ape
 data/apple
-data/archeologist
+data/archeolog
 data/archon
 data/arioch
 data/arrow
@@ -106,8 +106,8 @@ data/expensivecamera
 data/eyeoftheaethiopica
 data/eyesoftheoverworld
 data/figurine
-data/floatingeye
 data/fleshgolem
+data/floatingeye
 data/flute
 data/fogcloud
 data/fountain
@@ -151,7 +151,6 @@ data/war
 data/huanti
 data/huhetol
 data/humanoid
-data/page
 data/hunter
 data/icedevil
 data/imp
@@ -248,7 +247,6 @@ data/oilskinsack
 data/olog-hai
 data/pthia
 data/pear
-data/pyrolisk
 data/orbofdetection
 data/orboffate
 data/orcrist
@@ -257,6 +255,7 @@ data/orc
 data/orion
 data/osaku
 data/owlbear
+data/page
 data/panther
 data/pelias
 data/pickax
@@ -273,6 +272,7 @@ data/priest
 data/prisoner
 data/ptah
 data/purpleworm
+data/pyrolisk
 data/quadruped
 data/quantummechanic
 data/quasit
@@ -379,5 +379,5 @@ data/yeenoghu
 data/yeti
 data/yugake
 data/yumi
-data/zombie
+data/zombi
 data/zruty
