@@ -1,0 +1,12 @@
+*wight
+	When he came to himself again, for a moment he could recall
+	nothing except a sense of dread.  Then suddenly he knew that
+	he was imprisoned, caught hopelessly; he was in a barrow.  A
+	Barrow-wight had taken him, and he was probably already under
+	the dreadful spells of the Barrow-wights about which whispered
+	tales spoke.  He dared not move, but lay as he found himself:
+	flat on his back upon a cold stone with his hands on his
+	breast.
+		[ The Fellowship of the Ring, by J.R.R. Tolkien ]
+# note: need to convert player character "gnomish wizard" into just "wizard"
+# in the lookup code to avoid conflict with the monster of that same name
