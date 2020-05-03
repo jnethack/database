@@ -14,11 +14,12 @@ if ($#ARGV != 1){
 
 my ($database, $outdir) = @ARGV;
 {
-    my $f = 0;
-    my $fn = $fndef;
+    my $f = 1;
+    my $fn = '00head';
     my $c = '';
 
     open my $fr, '<', $database or die;
+    binmode($fr);
     while(<$fr>){
         my $t = substr($_, 0, 1);
 #        if($t eq "\n"){
@@ -34,6 +35,7 @@ my ($database, $outdir) = @ARGV;
             {
                 $f = 0;
                 open my $fw, '>', $outdir . '/' . $fn or die $!;
+                binmode($fw);
                 print $fw $c;
                 close $fw;
                 $c = '';
@@ -62,6 +64,7 @@ my ($database, $outdir) = @ARGV;
     close $fr;
     {
         open my $fw, '>', $outdir . '/' . $fn or die;
+        binmode($fw);
         print $fw $c;
         close $fw;
     }
