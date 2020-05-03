@@ -5,37 +5,39 @@ use warnings;
 binmode(STDOUT);
 
 my @fn;
+my $fndef = 'x' x 30;
 
-if ($#ARGV != 0){
-    print STDERR "perl split.pl (data.base)\n";
+if ($#ARGV != 1){
+    print STDERR "perl split.pl (data.base) (outdir)\n";
     exit;
 }
 
-my ($database) = @ARGV;
+my ($database, $outdir) = @ARGV;
 {
     my $f = 0;
-    my $fn = 'x' x 100;
+    my $fn = $fndef;
     my $c = '';
 
     open my $fr, '<', $database or die;
     while(<$fr>){
         my $t = substr($_, 0, 1);
-        if($t eq "\n" || $t eq '#'){
-            next;
-        }
+#        if($t eq "\n"){
+#        if($t eq "\n" || $t eq '#'){
+#            next;
+#        }
 
         if($f == 1){
-            if($t eq "\t"){
+            if($t eq "\t" || $t eq "\n" || $t eq '#'){
                 $c .= $_;
                 next;
             }
             {
                 $f = 0;
-                open my $fw, '>', 'orig/' . $fn or die $!;
+                open my $fw, '>', $outdir . '/' . $fn or die $!;
                 print $fw $c;
                 close $fw;
                 $c = '';
-                $fn = 'x' x 100;
+                $fn = $fndef;
             }
         }
 
@@ -47,20 +49,20 @@ my ($database) = @ARGV;
             $f = 1;
             next;
         } else {
-            if($t eq '~'){
+            if($t eq '' || $t eq '~'){
                 next;
             }
-            s/[?* ]//g;
-            if(length $fn > length $_){
+            s/[.?* ]//g;
+            s/[^-A-Za-z]//g;
+            if($_ ne '' and length $fn > length $_){
                 $fn = $_;
             }
         }
     }
     close $fr;
     {
-        open my $fw, '>', 'orig/' . $fn or die;
+        open my $fw, '>', $outdir . '/' . $fn or die;
         print $fw $c;
         close $fw;
-        $c = '';
     }
 }
