@@ -1,5 +1,6 @@
 霧の雲
 fog cloud
+fog* cloud
 	霧がくる
 	小さな猫の足つきで
 	
@@ -9,3 +10,4 @@ fog cloud
 	それから動いていく．
 	     [ Fog, by Carl Sandburg ]
 	     [ 霧, 安藤一郎・新倉俊一訳 ]
+# includes "food detection" and "detect food", which might not be the best

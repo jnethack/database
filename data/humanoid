@@ -4,3 +4,4 @@ humanoid
 	見間違うほどだ．彼等は自然では普通部族にわかれており，住みか
 	を強烈に守ろうとする．好ましくないものには彼らは団結し襲撃し，
 	人間の集落から略奪を行なう．
+# takes "human or elf or you" when specifying '@' as a dwarf, gnome, or orc

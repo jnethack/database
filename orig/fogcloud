@@ -1,4 +1,5 @@
 fog cloud
+fog* cloud
 	The fog comes
 	on little cat feet.
 
@@ -7,3 +8,4 @@ fog cloud
 	on silent haunches
 	and then moves on.
 	     [ Fog, by Carl Sandburg ]
+# includes "food detection" and "detect food", which might not be the best
