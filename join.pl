@@ -22,7 +22,7 @@ my ($dblist, $outfn) = @ARGV;
 }
 
 {
-    open my $fo, '>:encoding(shift_jis)', $outfn or die;
+    open my $fo, '>:raw:encoding(shift_jis)', $outfn or die;
     for(@fn){
         open my $f, '<:encoding(euc-jp)', $_ or die;
         while(<$f>){
