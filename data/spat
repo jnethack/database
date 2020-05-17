@@ -1,0 +1,18 @@
+combat
+fight
+fracas
+melee
+spat
+squabble
+tiff
+*戦闘
+戦い
+	[場面: Mr.ムーンとギルバートは酒場に入り，多数の死体が散らばっ
+	ているのを発見する．盲目のピューはただ一人の生き残りである．]
+
+	盲目のピュー:  晩に，ちょっとした小競り合いでもあったかのような
+	               音が聞こえたんだ．
+	   Mr.ムーン:  小競り合い？皆死んでるぞ．
+	盲目のピュー:  おお．揉め事以上のことがあったに違いない．
+		[ Yellowbeard, directed by Mel Damski, screenplay
+		  by Graham Chapman, Peter Cook, Bernard McKenna ]
