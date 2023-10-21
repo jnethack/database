@@ -1,6 +1,13 @@
 sokoban
-	Sokoban (Japanese for "warehouse person") is a puzzle-type
-	game where the player must push around treasure to a goal
-	area.  It apparently won first prize in a Japanese programming
-	contest.
-		[ Xsokoban web site ]
+	Sokoban (Japanese for "warehouse keeper") is a transport puzzle
+	in which the player pushes boxes around a maze, viewed from
+	above, and tries to put them in designated locations.  Only one
+	box may be pushed at a time, not two, and boxes cannot be pulled.
+	As the puzzle would be extremely difficult to create physically,
+	it is usually implemented as a video game.
+
+	Sokoban was created in 1982 by Hiroyuki Imabayashi, and was
+	published by Thinking Rabbit, a software house based in
+	Takarazuka, Japan.  Thinking Rabbit also released three sequels:
+	Boxxle, Sokoban Perfect and Sokoban Revenge.
+		[ Wikipedia, the free encyclopedia ]
