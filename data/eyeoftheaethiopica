@@ -5,3 +5,13 @@ eye of the aethiopica
 	れを持つものの魔法のダメージを半分に減らし，魔法の矢から守る力が
 	ある．その力を使うと迷宮の他のエリアへの魔法の入口を開き，力を使
 	うものはエリア間を高速に移動することができる．
+# note:  The Eyes of the Overworld is the title of Jack Vance's sequel
+# to The Dying Earth and in it the 'Eyes' were separate "cusps" that
+# needed to be worn like contact lenses, one on each eyeball.  Wearing
+# just one and attempting to look with both eyes caused instant stun.
+# And when wearing two you couldn't see normal world, only a projection
+# of it that had similar topology but where everything was "better".
+# NetHack simplifies things:  a pair of lenses is a single item like
+# spectacles (eyeglasses), and the effect of wearing these lenses has
+# been changed to be useful to game play (Xray vision).  [The quote is
+# not derived from the book.]
